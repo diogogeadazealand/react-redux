@@ -1,0 +1,53 @@
+nav{
+    background-color: #feff9e;
+    font-family: cursive;
+    height: 100vh
+}
+
+nav ul{
+    text-align: left;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #535353;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    border-bottom: 3px solid transparent;
+    transition: background-color 0.2s ease-in, border 0.2s ease-in;
+}
+
+nav ul li a:hover, li.active a {
+    background-color: #fdff6c;
+    border-bottom: 3px solid #eeee00;
+}
+
+#logo{
+    font-family: 'Brush Script MT';
+    color: #f66d85;
+    text-align: center;
+}
+
+nav h3{
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.picture_button{
+    margin: auto;
+    display: block;
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.picture{
+    max-width: 100%;
+}

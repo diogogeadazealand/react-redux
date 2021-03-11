@@ -1,11 +1,13 @@
 import React from 'react';
-import Inventory from './components/inventory';
 import './App.css';
+import HeaderComponent from './components/header/headerComponent';
+import ContentComponent from './components/content/contentComponent';
 
 function App() {
   return (
-      <div className="App">
-        <Inventory />
+      <div className="app">
+        <HeaderComponent />
+        <ContentComponent />
       </div>
   );
 }

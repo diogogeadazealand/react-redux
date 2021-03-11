@@ -1,0 +1,23 @@
+.store{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+}
+
+.store article{
+    background-color: white;
+    font: cursive;
+    text-align: center;
+    cursor: pointer;
+}
+
+.store article img{
+    max-width: 60%;
+}
+
+#cash{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    color: green;
+}
